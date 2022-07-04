@@ -13,6 +13,6 @@ public class Question06 {
 	}
 	
 	public static void main(String[] args) {
-		printRandomMessage("こころ");
+		printRandomMessage("こころe");
 	}
 }

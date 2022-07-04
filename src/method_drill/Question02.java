@@ -2,7 +2,7 @@ package method_drill;
 
 public class Question02 {
 	
-	static void printPI() {
+	public static void printPI() {
 		System.out.println(Math.PI);
 	}
 	
