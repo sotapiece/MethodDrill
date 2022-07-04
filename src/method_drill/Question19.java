@@ -1,4 +1,5 @@
 package method_drill;
+import java.util.Scanner;
 
 public class Question19 {
 	static int getMinValue(int[] array) {
@@ -12,7 +13,14 @@ public class Question19 {
 	}
 	
 	public static void main(String[] args) {
-		int[] arr = {1234,2356,23456,23456,123411,12,341,323,1,34,4,6,412};
-		System.out.println(getMinValue(arr));
+		Scanner sc = new Scanner(System.in);
+		System.out.println("配列の要素数は？");
+		int n = sc.nextInt();
+		System.out.println(n+"個の数字を入力してください");
+		int[] arr = new int[n];
+		for(int i = 0; i<n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		System.out.println("最小値は"+getMinValue(arr)+"です");
 	}
 }
