@@ -13,7 +13,7 @@ class Person {
 		return name;
 	 }
 	 
-	 int getAge() {
+	 static int getAge() {
 		 return age;
 	 }
 }
