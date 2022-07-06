@@ -8,7 +8,9 @@ public class Question22 {
 
 	public static void main(String[] args) {
 		Point p1 = new Point(2.3,4.6);
+		Point p2 = new Point(0.0,0.0);
 		System.out.println(getDistanceFromOrigin(p1));
+		System.out.println(Question23.getDistanceBetweenTwoPoints(p1,p2));
 	}
 }
 
