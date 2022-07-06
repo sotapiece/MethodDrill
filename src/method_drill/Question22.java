@@ -1,15 +1,5 @@
 package method_drill;
 
-class Point {
-	 double x;
-	 double y;
-	 
-	 Point(double x, double y) {
-		 this.x = x;
-		 this.y = y;
-	 }
-}
-
 public class Question22 {
 	static double getDistanceFromOrigin(Point p) {
 		return Math.sqrt(p.x*p.x+p.y*p.y);
