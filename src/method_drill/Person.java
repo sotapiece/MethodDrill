@@ -16,4 +16,7 @@ class Person {
 	 public static int getAge() {
 		 return age;
 	 }
+	 public static void setName(String name) {
+		 Person.name = name;
+	 }
 }
