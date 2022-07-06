@@ -9,11 +9,11 @@ class Person {
 		 this.age = age;
 	 }
 	 
-	 static String getName() {
+	 public static String getName() {
 		return name;
 	 }
 	 
-	 static int getAge() {
+	 public static int getAge() {
 		 return age;
 	 }
 }
